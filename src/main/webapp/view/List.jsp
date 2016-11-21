@@ -1,6 +1,7 @@
 <%--
     Created on : 07-March-2016
     Author     : Macar Calancea (mcalancea@acquisio.com)
+    url        : http://localhost:9090/jetty-jsp-example/view/List.jsp
 --%>
 <%@page import="java.util.Collection" %>
 <%@page import="org.apache.commons.lang.math.NumberUtils"%>

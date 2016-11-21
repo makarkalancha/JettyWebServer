@@ -1,4 +1,4 @@
-package main.webapp;
+package webapp;
 
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.webapp.WebAppContext;
@@ -16,6 +16,7 @@ public class JettyJspMain {
         // 2. Creating the WebAppContext for the created content
         WebAppContext ctx = new WebAppContext();
         ctx.setResourceBase("src/main/webapp");
+//        ctx.setResourceBase("src/main");
         ctx.setContextPath("/jetty-jsp-example");
 
         //3. Including the JSTL jars for the webapp.
