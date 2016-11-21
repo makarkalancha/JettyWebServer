@@ -40,7 +40,7 @@ public class TableServlet extends HttpServlet {
             someClass2.setFormula("formula2");
             someClass2.setActive(false);
 
-            List<SomeClass> someClasses = new ArrayList<>();
+            List<SomeClass> someClasses = new ArrayList<SomeClass>();
             someClasses.add(someClass1);
             someClasses.add(someClass2);
 
