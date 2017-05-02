@@ -1,4 +1,4 @@
-package webapp.objects;
+package webapp.pojos;
 
 /**
  * Created by mcalancea on 2016-03-08.

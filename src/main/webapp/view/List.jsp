@@ -5,7 +5,7 @@
 --%>
 <%@page import="java.util.Collection" %>
 <%@page import="org.apache.commons.lang.math.NumberUtils"%>
-<%@page import="webapp.objects.SomeClass"%>
+<%@page import="webapp.pojos.SomeClass"%>
 <%@page import="java.util.ArrayList"%>
 <%@page import="java.util.List"%>
 

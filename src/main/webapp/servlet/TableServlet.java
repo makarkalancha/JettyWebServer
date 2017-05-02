@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import org.apache.commons.lang.BooleanUtils;
 import org.apache.commons.lang.math.NumberUtils;
-import webapp.objects.SomeClass;
+import webapp.pojos.SomeClass;
 
 /**
  * Created by mcalancea on 2016-03-08.
