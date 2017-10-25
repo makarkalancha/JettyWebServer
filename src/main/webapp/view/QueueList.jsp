@@ -5,6 +5,7 @@
 --%>
 <%@page import="org.apache.commons.lang.StringUtils"%>
 <%@page import="webapp.pojos.FirstQueue"%>
+<%@page import="webapp.pojos.Buildings"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -20,7 +21,7 @@
         String success = StringUtils.defaultString(request.getParameter("s"), "");
         if (StringUtils.isNotBlank(action)) {
             System.out.println("jsp;" + action);
-            if(action.equals("FirstQueue")){
+            if(Buildings.FIRST.equals(action)){
                 FirstQueue first = new FirstQueue();
                 first.action();
                 //response.sendRedirect("QueueList.jsp?s=success");
@@ -49,8 +50,8 @@
                 <th>Action</th>
               </tr>
               <tr>
-                <td>First queue</td>
-                <td><button name="action" value="FirstQueue" type="submit">Force reinitialize</button></td>
+                <td><%=Buildings.FIRST%></td>
+                <td><button name="action" value="<%=Buildings.FIRST%>" type="submit">Force reinitialize</button></td>
               </tr>
             </table>
         </form>

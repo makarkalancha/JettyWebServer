@@ -11,7 +11,7 @@ public class JettyJspMain {
     public static void main(String[] args) throws Exception {
 
         // 1. Creating the server on port 8080
-        Server server = new Server(9090);
+        Server server = new Server(7070);
 
         // 2. Creating the WebAppContext for the created content
         WebAppContext ctx = new WebAppContext();
