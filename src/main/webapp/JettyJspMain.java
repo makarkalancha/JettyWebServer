@@ -31,7 +31,6 @@ public class JettyJspMain {
         server.setHandler(ctx);
         server.start();
         server.join();
-
     }
 
 }
